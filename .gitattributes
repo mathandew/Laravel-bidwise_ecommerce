@@ -1,5 +1,8 @@
 *.php linguist-detectable=true
-*.blade.php linguist-detectable=true
+*.blade.php linguist-language=PHP
+
+# Ignore frontend files from language stats
 *.js linguist-detectable=false
-*.css linguist-detectable=true
+*.css linguist-detectable=false
 *.vue linguist-detectable=false
+*.html linguist-detectable=false
